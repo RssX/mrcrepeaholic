@@ -1,0 +1,91 @@
+
+/* INCEPUT FOOTER */
+.subsol {
+    width: 100%;
+    height: 10rem;
+    background: var(--overlayColor);
+    margin-top: 0.2rem;
+  }
+  .social-media{
+    display: block;
+    width: 29%;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-media h2 {
+    color: beige;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  
+  }
+  .social-media a, .social-media:visited,
+  .social-media a:active, .social-media a:hover{
+    margin: auto auto;
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(182, 197, 255);
+    width: fit-content;
+  }
+  .info{
+    display: block;
+    width: 33%;
+    height: auto;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .info h2{
+    color: beige;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+  .program{
+    display: block;
+    width: 38%;
+    height: auto;
+    float: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .program h3{
+    color: beige;
+    font-size: 0.7rem;
+    padding-top: 1rem;
+  }
+  .program h2{
+    color: rgb(236, 198, 114);
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+  @media only screen and (min-width: 765px){
+    .subsol{
+      height: 12rem;
+    }
+    .info h2{
+      font-size: 1rem;
+    }
+    .social-media h2{
+      font-size: 1rem;
+    }
+    .social-media a{
+      font-size: 3rem;
+    }
+    .social-media:visited,
+    .social-media a:active, .social-media a:hover {
+     font-size: 3rem;
+     opacity: 0.7;
+    }
+    .program h3{
+      font-size: 1rem;
+    }
+    .program h2{
+      font-size: 1.2rem;
+    }
+  }
+
+  /* SFARSITUL FOOTER */

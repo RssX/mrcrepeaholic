@@ -1,0 +1,15 @@
+# mod_rewrite start here
+
+RewriteEngine on
+
+# nu se aplica la folderele existente, insemnand ca daca folderul exista pe server, nu se va schimba nimic si nu se va aplica regula
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Check for file in directory with .html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Aici aratam paginile cu extensia .html
+
+RewriteRule ^(.*)$ $1.html [NC,L]
